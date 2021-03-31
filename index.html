@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html
+  lang="en"
+>
+<head>
+  <meta
+    charset="UTF-8"
+  >
+  <meta
+    http-equiv="X-UA-Compatible"
+    content="IE=edge"
+  >
+  <meta 
+    name="viewport" 
+    content="width=device-width, initial-scale=1.0"
+  >
+  <title>Imersão Dev - Lesson 01 - Universal Converter</title>
+  <link
+    rel="stylesheet"
+    href="style.css"
+  >
+</head>
+<body>
+  <header>
+    <div
+      class="container"
+    >
+      <h1
+        class="page-title"
+      >
+        Universal Converter
+      </h1>
+      <img 
+        src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" 
+        class="page-logo"
+        alt="logo"
+      >
+    </div>
+    <a
+      href="https://github.com/franciscoarmando63/imersao_dev"
+      target="_blank"
+    >
+      <img
+        src="https://miro.medium.com/max/280/1*xPjeXkXbzEPfRtZpY5DQAg.png"
+        alt="Link Acesso ao GitHub"
+        class="github-logo"
+      >
+    </a>
+  </header>
+
+  <main>
+    <div class="button-links">
+      <p>
+        <a
+          href="#"
+          class="button"
+          onclick="Modal.open()"
+        >
+          COIN
+        </a>
+      </p>
+      <p>
+        <a
+          href="#"
+          class="button"
+        >
+          LIGHT
+        </a>
+      </p>
+      <p>
+        <a
+          href="#"
+          class="button"
+        >
+          RANGE
+        </a>
+      </p>
+      <p>
+        <a
+          href="#"
+          class="button"
+        >
+          WEATHER
+        </a>
+      </p>
+    </div>
+    
+  <div class="modal-coin">
+    <div class="modal">
+      <input
+        type="number"
+        name="dollar"
+        id="dollar"
+        placeholder="Type value Dollar"
+      >
+      <button>Convert</button>
+      <a 
+        href="#"
+        onclick="Modal.close()"
+      >
+        Cancel
+      </a>
+    </div>
+  </div>
+  </main>
+
+  <script
+    src="script.js"
+  >
+  </script>
+</body>
+</html>
