@@ -36,11 +36,8 @@
   >
 </h1>
 
-<h3
-  align="center"
->
-Access my code at CodePen by clicking <a src="https://codepen.io/franciscoarmando63/pen/abpbjNJ" target="_blank">here</a>
-</h3>
+### Access my code at CodePen by clicking [here](https://codepen.io/franciscoarmando63/pen/abpbjNJ)
+
 <br
 />
 <h3
